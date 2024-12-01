@@ -1,0 +1,19 @@
+TeaCozy Website
+A stylish and responsive website for a fictional tea shop called TeaCozy. This project demonstrates the use of modern web design principles, including HTML5, CSS3, and responsive design techniques.
+
+Project Overview
+TeaCozy is a minimalist website built to practice and showcase front-end development skills. It features a sleek layout with sections for the shop's mission, locations, and menu, providing an excellent example of structuring and styling content effectively.
+
+Features
+  Responsive Design: Optimized for various screen sizes, ensuring a seamless user experience across desktops, tablets, and mobile devices.
+  Multi-Section Layout:
+  Header: A clean navigation bar with links to each section of the site.
+  Mission Statement: Highlights the shop's dedication to quality tea.
+  Locations Section: Displays store locations in a grid layout with relevant details.
+  Menu Section: Lists various tea offerings with an elegant presentation.
+  CSS Styling: Carefully crafted styles using flexbox for layout and modern design aesthetics.
+
+Technologies Used
+  HTML5: For semantic and structured content.
+  CSS3: To create a visually appealing and responsive layout.
+  Flexbox: For flexible and efficient layout management.
