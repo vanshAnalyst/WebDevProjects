@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  
+}
+
+html{
+  scroll-padding-top: 69px;
+}
+
+header {
+  z-index: 10;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+header nav {
+  text-align: right;
+  margin-right: 20px;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  text-decoration: underline;
+  width: 350px;
+}
+header nav a {
+  color: seashell;
+}
+
+header #logo {
+  margin-left: 10px;
+  height: 50px;
+  padding-top: 10px;
+}
+
+/*Mission section */
+#mission {
+  background-image: url("images/img-mission-background.png");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+#mission #banner {
+  width: 1200px;
+  background-color: black;
+  color: seashell;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* tea of the month section */
+#teaOfMonth {
+  margin: 0 auto;
+  width: 1000px;
+  text-align: center;
+}
+
+#teaOfMonth #imageContainer {
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+#teaOfMonth .imgCard {
+  text-align: center;
+}
+#teaOfMonth .imgCard img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/*Location section*/
+#location {
+  height: 500px;
+  background-image: url("images/img-locations-background.png");
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#location #locationHeading {
+  text-align: center;
+}
+
+#location #cardContainer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#location .card {
+  background-color: black;
+  text-align: center;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+footer #contact {
+  height: 200px;
+  text-align: center;
+}
+
+footer #copyright {
+  text-align: left;
+  margin-left: 20px;
+}
